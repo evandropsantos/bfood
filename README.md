@@ -13,6 +13,7 @@
 ## :rocket: Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
+- [React](https://reactjs.org)
 
 ** Iniciar o projeto
 Na pasta raiz do projeto execute os seguintes comandos
@@ -24,8 +25,6 @@ Na pasta raiz do projeto execute os seguintes comandos
   #Subir o servidor (O Caminho será exibido no console)
   $npm start
 ```
-
-- [React](https://reactjs.org)
 
 ## 💻 Projeto
 
