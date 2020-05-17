@@ -10,12 +10,17 @@
 
 <br>
 
+## 💻 Projeto
+
+O BFood é um projeto que visa exibir uma listagem de restaurantes.
+
 ## :rocket: Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
+
 - [React](https://reactjs.org)
 
-** Iniciar o projeto
+***Iniciar o projeto
 Na pasta raiz do projeto execute os seguintes comandos
 
 ``` bash
@@ -25,10 +30,6 @@ Na pasta raiz do projeto execute os seguintes comandos
   #Subir o servidor (O Caminho será exibido no console)
   $npm start
 ```
-
-## 💻 Projeto
-
-O BFood é um projeto que visa exibir uma listagem de restaurantes.
 
 ## :memo: Licença
 
