@@ -1,0 +1,56 @@
+.banner__container {
+  background-image: url("../../assets/hamburguer.jpg");
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-size: contain;
+  background-color: #000;
+}
+
+.description-box__container, .package__container {
+  background-color: #f6efdf;
+  background-image: url("../../assets/bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #f74a3e;
+}
+
+.description-box__content {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+}
+
+.search-box__container {
+  text-align: center;
+  background-color: #f74a3e;
+}
+.search-box__title, .search-box__text {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.search-box__title, .package__title {
+  font-size: 4rem;
+  font-weight: 400;
+}
+.search-box__text {
+  font-size: 1.5rem;
+  line-height: 2.125rem;
+  margin-top: 2rem;
+  margin-bottom: 8rem; 
+}
+
+.package__container { 
+  text-align: center;
+}
+
+.package__container .shelf { margin-top: 3rem; }
+.package__container .shelf__item { width: 30%; }
+
+.box__bigburguer {
+  background-image: url("../../assets/big-burger.jpg");
+  background-image: contain;
+  width: 483px;
+  height: 483px;
+  border-radius: 100%;
+}

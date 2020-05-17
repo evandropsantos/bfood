@@ -1,0 +1,66 @@
+.autocomplete {
+  width: 70%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.autocomplete__icon {
+  position: absolute;
+  top: 18px;
+  left: 20px;
+}
+
+.suggestions__input {
+  width: 100%;
+  height: 5rem;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  padding: 0 3% 0 80px;
+  border: none;
+  border-radius: 80px;
+}
+
+.suggestions__input::placeholder {
+  color: #CCC;
+  font-style: italic;
+  font-weight: 400;
+}
+
+.suggestions {
+  list-style: none;
+  margin-top: 0;
+  max-height: 400px;
+  overflow-y: auto;
+  background-color: #FFF;
+  position: absolute;
+  left: 50%;
+  transform: translate3d(-50%, 0, 0);
+  width: 60%;
+  max-width: 700px;
+  color: #222;
+  border-radius: 0 0 5px 5px;
+}
+
+.no-suggestions, .suggestions li { padding: .5rem; }
+
+.suggestion-active,
+.suggestions li:hover {
+  background-color: #f3f3f3;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.suggestions__button {
+  cursor: pointer;
+  color: #f74a3e;
+  padding: 0 3.125rem;
+  height: 3.125rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 40px;
+  transition: background .8s ease-in;
+  display: block;
+  margin: 2rem auto;
+}
