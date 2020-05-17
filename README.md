@@ -1,10 +1,6 @@
 <h1 align="center">
-    <img alt="DevRadar" title="#delicinha" src=".github/logotipo.svg" width="200px" />
-</h1>
-
-<h4 align="center">
   🍔 BFood
-</h4>
+</h1>
 
 <p align="center">
   <a href="#rocket-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
